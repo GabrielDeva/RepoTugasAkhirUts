@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+header{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0,0.5));
+	height: 10vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s;
+}
+ul li a:hover{
+	background-color: black;
+	color: white;
+}
+ul li.active a{
+	background-color: black;
+	color: black;
+}
+body{
+	position: relative;
+	background-size: cover;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: auto;
+	height: auto;
+	width: 1200px;
+}
+table{
+	width: 150px;
+	padding: 15px;
+}
+nav{
+	background-image: url("kerja.jpg");
+	background-size: cover;
+	height: 640px;
+	width: auto;
+	left: 15px;
+	top: 40px;
+}
+body{
+	position: relative;
+	background-size: cover;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: auto;
+	height: auto;
+	width: 1200px;
+}
+
