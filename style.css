@@ -1,65 +1,96 @@
-*{
-	margin: 0px;
-	padding: 0px;
+body{
+	background-color:#f9f9f9;
+	font-size:16px
+	color:#444;
 	font-family: sans-serif;
 }
+ 
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+ 
+/*header*/
 header{
-	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0,0.5));
-	height: 10vh;
-	background-size: cover;
-	background-position: center;
+	background-color: white;
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
 }
-ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 25px;
+ 
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
 }
-ul li{
-	display: inline-block;
+ 
+/*menu navigasi*/
+.menu{
+	background-color: #87CEFA;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
 }
-ul li a{
-	text-decoration: none;
-	color: black;
-	padding: 5px 20px;
-	border: 1px solid transparent;
-	transition: 0.5s;
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
 }
-ul li a:hover{
-	background-color: black;
-	color: white;
+ 
+ 
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
 }
-ul li.active a{
-	background-color: black;
-	color: black;
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#2c2c2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
 }
-body{
-	position: relative;
-	background-size: cover;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: auto;
-	height: auto;
-	width: 1200px;
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
 }
-table{
-	width: 150px;
-	padding: 15px;
+ 
+ 
+div.badan{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
 }
-nav{
-	background-image: url("kerja.jpg");
-	background-size: cover;
-	height: 640px;
-	width: auto;
-	left: 15px;
-	top: 40px;
-}
-body{
-	position: relative;
-	background-size: cover;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: auto;
-	height: auto;
-	width: 1200px;
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
 }
 
+
+<div class="halaman">
+	<h2>Halaman Depan</h2>
+	<p>Selamat datang di www.malasngoding.com. ini merupakan halaman depan pada demo cara Membuat halaman website ajax tanpa reload dengan ajax jquery</p>
+</div>
+<div class="halaman">
+	<h2>Halaman Depan</h2>
+	<p>Selamat datang di www.malasngoding.com. ini merupakan halaman depan pada demo cara Membuat halaman website ajax tanpa reload dengan ajax jquery</p>
+</div>
+
+
+<div class="halaman">
+	<h2>Tentang Kami</h2>
+	<p>Ini adalah halaman tentang kami</p>
+	<p>Malasngoding.com adalah situs yang menyediakan konten-konten berkualitas untuk belajar pemrograman web</p>
+</div>
+<div class="halaman">
+	<h2>Tentang Kami</h2>
+	<p>Ini adalah halaman tentang kami</p>
+	<p>Malasngoding.com adalah situs yang menyediakan konten-konten berkualitas untuk belajar pemrograman web</p>
+</div>
